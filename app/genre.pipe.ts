@@ -9,9 +9,9 @@ import { Album } from './album.model';
 export class GenrePipe implements PipeTransform {
   transform(input: Album[], args) {
     var desiredAlbumGenre = args[0];
-    if(desiredAlbumGenre === "Pop") {
+    if(desiredAlbumGenre === "pop") {
       return input.filter(album => (album.genre === "Pop"));
-    } else if(desiredAlbumGenre === "Singer Songwriter")  {
+    } else if(desiredAlbumGenre === "singerSongwriter")  {
       return input.filter(album => (album.genre === "Singer Songwriter"));
     } else {
       return input;

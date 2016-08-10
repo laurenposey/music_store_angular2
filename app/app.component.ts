@@ -1,4 +1,4 @@
-import { Component } from 'angular2/core';
+import { Component, EventEmitter } from 'angular2/core';
 import { AlbumListComponent } from './album-list.component';
 import { Album } from './album.model';
 
